@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pide Comida en línea Súper y Farmacia a Domicilio - Rappi México</title>
+  <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.css">
+</head>
+<body>
+
+  <div class="container-fluid">
+
+    <!-- Inicia navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+  
+        <a class="navbar-brand" href="#">Rappi</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Ingresar Ubicación</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Iniciar sesión</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Carrito de compras</a>
+
+              <ul class="dropdown-menu">
+
+                <li><a class="dropdown-item" href="#">Ver carrito de compras</a></li>
+                <hr>
+                <li><a class="dropdown-item" href="#">Comprar</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                
+              </ul>
+            </li>
+
+          </ul>
+
+          <form role="search">
+              <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+          </form>
+
+        </div>
+      </div>
+    </nav>
+    <!-- Termina navbar -->
+
+    <br><br><br><br>
+
+    <!-- Inicia Hero -->
+    <div class="container-fluid">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5" style="background-image: url('./img/background-hero.webp'); background-position: right bottom; background-size: cover;">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <br>
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3">¡30 días de entrega gratis!</h1>
+          <p class="lead">Para tus primeros pedidos en Restaurante</p>
+          <img src="./img/pizza.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="150" height="auto" loading="lazy">
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">¡Pide ahora!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Inicia Hero -->
+
+    <!-- Inicia galería de cartas -->
+    <div class="container-fluid col-xxl-8 my-5">
+
+      <h1 class="display-5">¿Necesitas algo más?</h1>
+
+      <div class="row row-cols-md-2 row-cols-1 align-items-stretch g-4 py-5">
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./img/burger.webp'); background-repeat: no-repeat; background-position: center center;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Restaurantes</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./img/shop.webp'); background-repeat: no-repeat; background-position: center center;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Super</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Termina galería de cartas -->
+
+    <!-- Inicia carrusel -->
+    <div style="max-width: 800px; margin: 0 auto;">
+      <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg m-4" style="background-image: url('./img/pharmacy.webp'); background-repeat: no-repeat; background-position: center center; background-size: contain;">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Farmacia</h3>
+              </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg m-4" style="background-image: url('./img/express.webp'); background-repeat: no-repeat; background-position: center center; background-size: contain;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Express</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg m-4" style="background-image: url('./img/store.webp'); background-repeat: no-repeat; background-position: center center; background-size: contain;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Tiendas</h3>
+            </div>
+          </div>
+        </div>
+        
+        <div class="carousel-item">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg m-4" style="background-image: url('./img/turbo.webp'); background-repeat: no-repeat; background-position: center center;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Turbo</h3>
+            </div>
+          </div>
+        </div>
+        
+        <div class="carousel-item">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg m-4" style="background-image: url('./img/spirits.webp'); background-repeat: no-repeat; background-position: center center; background-size: contain;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Licores</h3>
+            </div>
+          </div>
+        </div>
+        
+        <div class="carousel-item">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg m-4" style="background-image: url('./img/rappi-travel.webp'); background-repeat: no-repeat; background-position: center center; background-size: contain;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Rappi Travel</h3>
+            </div>
+          </div>
+        </div>
+        
+        <div class="carousel-item">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg m-4" style="background-image: url('./img/rappi_card.webp'); background-repeat: no-repeat; background-position: center center; background-size: contain;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Rappi Card</h3>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+        </div>
+      </div>
+    </div>
+    <!-- Termina carrusel -->
+
+    <!-- Inicia sección de cartas -->
+    <div class="container-fluid my-5 col-xxl-8">
+      <h1 class="display-5">Unete a <strong class="fw-bold">Rappi</strong></h1>
+      <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 align-items-stretch g-4 py-5">
+        <div class="col">
+          <div class="card">
+            <img src="./img/rappi-rest.webp" class="card-img-top" alt="Rappi Rest">
+            <div class="card-body">
+              <h5 class="card-title">Registra tu restaurante</h5>
+              <p class="card-text">Descubre los beneficios que tienen los +40.000 aliados en 9 países que ya trabajan con Rappi.</p>
+              <div class="d-grid gap-2 col-12 mx-auto">
+                <a href="#" class="btn btn-primary">Conocer más</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card">
+            <img src="./img/join.webp" class="card-img-top" alt="Rappi Rest">
+            <div class="card-body">
+              <h5 class="card-title">Registra tu comercio</h5>
+              <p class="card-text">Accede a millones de usuarios de Rappi y disfrute de una logística inmediata sin salir de tu tienda.</p>
+              <div class="d-grid gap-2 col-12 mx-auto">
+                <a href="#" class="btn btn-primary">Conocer más</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <div class="card">
+            <img src="./img/rappi-rt-eb.webp" class="card-img-top" alt="Rappi Rest">
+            <div class="card-body">
+              <h5 class="card-title">¡Únete como repartidor!</h5>
+              <p class="card-text">Accede a millones de usuarios de Rappi y disfrute de una logística inmediata sin salir de tu tienda.</p>
+              <div class="d-grid gap-2 col-12 mx-auto">
+                <a href="#" class="btn btn-primary">¡Registrate ahora!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Termina sección de cartas -->
+
+    <!-- Inicia footer -->
+    <div class="container">
+      <footer class="row row-cols-1 row-cols-md-2 row-cols-lg-3 py-5 my-5 border-top">
+
+        <!-- Inicia cadenas de restaurantes -->
+        <div class="col mb-3">
+          <h5>Top Marcas y cadenas de Restaurantes</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Cadenas de restaurantes</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Cadenas de tiendas</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Little Caesars</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Subway</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Carls Jr</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Buffalo Wild Wings</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Gordibuenas</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Antojitos Mexicanos</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Hooters</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Cervecería Chapultepec</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Don Asado</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">La Casa de Toño</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Ihop</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">KFC</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Dairy Queen</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Starbucks</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Mc Donald's</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pastelerías Esperanza</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pollo Felíz</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Las Alitas</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Wings Army</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Burger King</a></li>
+          </ul>
+        </div>
+        <!-- Termina cadenas de restaurantes -->
+    
+        <!-- Inician países -->
+        <div class="col mb-3">
+          <h5>Encuentranos en estos países</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Argentina</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Brasil</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Chile</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Colombia</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Costa Rica</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Ecuador</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">México</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Perú</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Uruguay</a></li>
+          </ul>
+        </div>
+        <!-- Terminan países -->
+    
+        <!-- Inician lugares donde pedir comida -->
+        <div class="col mb-3">
+          <h5>Pide tu comida favorita cerca de tí</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Hamburguesas cerca de mí</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pizza cerca de mí</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sushi cerca de mí</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Postres cerca de mí</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Tacos cerca de mí</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pollo cerca de mí</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Cafeterías cerca de mí</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Comida Mexicana cerca de mí</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Comida a domicilio</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Comida Saludable cerca de mí</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pastelería y Panadería cerca de mí</a></li>
+          </ul>
+        </div>
+        <!-- Termina lugares donde pedir comida -->
+
+        <!-- Inician categorías -->
+        <div class="col mb-3">
+          <h5>Categorías</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Catálogo Productos</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Promociones y ofertas</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Restaurantes</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Super cerca de mí</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Farmacia cerca de mí</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Express cerca de mí</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Tiendas cerca de mí</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Licores Mexicana cerca de mí</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Rappi Travel</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Turbo Fresh</a></li>
+          </ul>
+        </div>
+        <!-- Termina categorías -->
+
+        <!-- Inicia "Únete a Rappi" -->
+        <div class="col mb-3">
+          <h5>Únete a Rappi</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Crea el Sitio web de Tu Restaurante</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Registra tu restaurante</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Trabaja con nosotros</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Registra tu tienda</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Posiciones disponibles</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Quiero ser Rappitendero</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Haz crecer tu marca</a></li>
+          </ul>
+        </div>
+        <!-- Termina "Únete a Rappi" -->
+
+        <!-- Inicia "Sobre Rappi" -->
+        <div class="col mb-3">
+          <h5>Sobre Rappi</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Blog</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Términos y condiciones</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Rappi Card</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Política de privacidad</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Tratamiento de datos</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contacto</a></li>
+          </ul>
+        </div>
+        <!-- Termina "Sobre Rappi" -->
+
+        <!-- Inician redes sociales -->
+        <div class="col mb-3 justify-content-center justify-content-md-start">
+          <div class="row row-cols-3 row-cols-md-4 row-cols-lg-6">
+
+            <div class="col">
+              <img src="./bi/facebook.svg" height="30" width="auto">
+            </div>
+
+            <div>
+              <img src="./bi/twitter.svg" height="30" width="auto">
+            </div>
+
+            <div>
+              <img src="./bi/instagram.svg" height="30" width="auto">
+            </div>
+          </div>
+        </div>
+        <!-- Termina redes sociales -->
+
+        <!-- Inician Tiendas de descarga de Rappi -->
+        <div class="col mb-3">
+          <div class="row row-cols-3 row-lg-6">
+
+            <div class="col">
+              <a>
+                <img src="./bi/apple.svg" height="20" width="auto">
+                <i class="fw-bold">App Store</i>
+              </a>
+            </div>
+
+            <div class="col">
+              <a>
+                <img src="./bi/google-play.svg" height="20" width="auto">
+                <i class="fw-bold">Google Play</i>
+              </a>
+            </div>
+
+            <div class="col">
+              <a>
+                <img src="./bi/app-indicator.svg" height="20" width="auto">
+                <i class="fw-bold">App Gallery</i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Terminan Tiendas de descarga de Rappi -->
+
+        <div class="col mb-3">
+          <p class="text-muted">© 2023 Rappi Inc. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+    <!-- Termina footer -->
+  </div>
+
+  <script src="./bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>
